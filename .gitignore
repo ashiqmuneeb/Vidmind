@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Packages
+.env
+.env.local
+.venv
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Media & Storage data (Rule: Keep generated large files out of Git)
+data/videos/*
+!data/videos/.gitkeep
+data/audio/*
+!data/audio/.gitkeep
+data/transcripts/*
+!data/transcripts/.gitkeep
+data/frames/*
+!data/frames/.gitkeep
+data/ocr/*
+!data/ocr/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
+data/notes/*
+!data/notes/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
